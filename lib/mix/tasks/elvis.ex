@@ -1,4 +1,4 @@
-defmodule Mix.Tasks.Eunit do
+defmodule Mix.Tasks.Elvis do
   use Mix.Task
 
   @shortdoc "Run the Elvis linter for Erlang code"

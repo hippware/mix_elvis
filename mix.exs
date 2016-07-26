@@ -14,8 +14,8 @@ defmodule MixElvis.Mixfile do
 
   defp deps do
     [
-      {:zipper, github: "inaka/zipper", branch: "master", override: true, manager: :rebar3, only: :dev},
-      {:elvis,  "~> 0.3.0", hex: :elvis_core, only: :dev}
+      {:zipper, github: "inaka/zipper", branch: "master", override: true, manager: :rebar3},
+      {:elvis,  "~> 0.3.0", hex: :elvis_core}
     ]
   end
 end

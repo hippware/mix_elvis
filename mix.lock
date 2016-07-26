@@ -1,0 +1,6 @@
+%{"aleppo": {:hex, :inaka_aleppo, "1.0.0", "8db14cf16bb8c263c14ff4c3f69f64d7c849d40888944f4204d2ca74f1114ceb", [:rebar3], []},
+  "elvis": {:hex, :elvis_core, "0.3.0", "5e69b6cec6638ff2302f159d390560b6e07b595f50949558e28e90f822e95454", [:rebar3], [{:katana_code, "0.1.0", [hex: :katana_code, optional: false]}, {:lager, "3.0.2", [hex: :lager, optional: false]}, {:zipper, "1.0.0", [hex: :zipper, optional: false]}]},
+  "goldrush": {:hex, :goldrush, "0.1.7", "349a351d17c71c2fdaa18a6c2697562abe136fec945f147b381f0cf313160228", [:rebar3], []},
+  "katana_code": {:hex, :katana_code, "0.1.0", "c34f3926a258d6beacd8d21f140f3d47d175501936431c460b144339d5271a0b", [:rebar3], [{:aleppo, "1.0.0", [hex: :inaka_aleppo, optional: false]}]},
+  "lager": {:hex, :lager, "3.0.2", "25dc81bc3659b62f5ab9bd073e97ddd894fc4c242019fccef96f3889d7366c97", [:rebar3], [{:goldrush, "0.1.7", [hex: :goldrush, optional: false]}]},
+  "zipper": {:git, "https://github.com/inaka/zipper.git", "05347c91219143f6dd2fbd6d95273b596a239fb8", [branch: "master"]}}

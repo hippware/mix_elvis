@@ -10,6 +10,9 @@ defmodule Mix.Tasks.Elvis do
   def run(_args) do
     project_config = Mix.Project.config
     elvis_config = project_config[:elvis_config]
-    :elvis_core.rock(elvis_config)
+    case :elvis_core.rock(elvis_config) do
+      {:fail, _} -> Mix.raise "mix elvis failed"
+      :ok -> :ok
+    end
   end
 end
